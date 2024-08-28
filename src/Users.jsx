@@ -12,12 +12,11 @@ export default function Users() {
         .then(data => setUsers(data))
 
 
-
     }, [])
 
     return (
         <div>
-
+            <h3>Users: {users.length}</h3>            
         </div>
     )
 }
