@@ -1,6 +1,6 @@
-
 import './App.css'
 import Counter from './Counter1';
+import Team from './Team';
 
 
 function App() {
@@ -19,8 +19,9 @@ function App() {
     <>
           
       <h3>React Core Concept 2</h3>
-
+    {/* ---------------------------------- */}
       <Counter></Counter>
+      <Team></Team>
 
 
 
