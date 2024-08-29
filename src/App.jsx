@@ -1,5 +1,6 @@
 import './App.css'
 import Counter from './Counter1';
+import Friends from './Friends';
 import Team from './Team';
 import Users from './Users';
 
@@ -23,8 +24,10 @@ function App() {
     {/* ---------------------------------- */}
       <Users></Users>
 
+      <Friends></Friends>
+
       <Counter></Counter>
-      
+
       <Team></Team>
 
       
